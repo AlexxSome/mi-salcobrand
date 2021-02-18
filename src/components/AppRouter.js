@@ -4,7 +4,7 @@ import {
     Switch,
     Route
   } from "react-router-dom";
-import { HomeScreen } from './HomeScreen';
+import { HomeScreen } from './home/HomeScreen';
 import { Navbar } from './common/Navbar';
 
 export const AppRouter = () => {
