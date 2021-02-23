@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { AppRouter } from './AppRouter';
+import { AppRouter } from './router/AppRouter';
 import {UserContext} from './user/UserContext';
 
 export const MiSalcobrandApp = () => {

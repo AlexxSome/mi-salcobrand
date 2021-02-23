@@ -13,8 +13,10 @@ export const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul className="navbar-nav">              
                         <NavLink exact className="nav-link" to='/' activeClassName="active">Inicio</NavLink>
-                    </ul>
+                        <NavLink exact className="nav-link" to='/register' activeClassName="active">Registro</NavLink>                        
+                    </ul>                    
                 </div>
+                <NavLink exact className="nav-link justify-content-end fas fa-sign-out-alt text-white" to='/login' activeClassName="active"> </NavLink>
             </div>
         </nav>
     )
