@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom'
-
+import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 
 export const Navbar = () => {
     return (
@@ -16,7 +16,7 @@ export const Navbar = () => {
                         <NavLink exact className="nav-link" to='/register' activeClassName="active">Registro</NavLink>                        
                     </ul>                    
                 </div>
-                <NavLink exact className="nav-link justify-content-end fas fa-sign-out-alt text-white" to='/login' activeClassName="active"> </NavLink>
+                <NavLink exact className="nav-link justify-content-end text-white" to='/login' activeClassName="active"><ExitToAppIcon color="white" /> </NavLink>
             </div>
         </nav>
     )
